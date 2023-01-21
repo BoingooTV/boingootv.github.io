@@ -662,12 +662,12 @@ Please do give credit if you decided to recolor :)
 }
 
 /* Profile */
-.profile .statistics,
-.profile .progress,
-.profile .k-d,
-.card-profile {
+div.card-cont.avatar-info,
+div.card-cont.user-info,
+.money {
     background: transparent !important;
-    box-shadow: none !important;
+    border-bottom: transparent !important;
+    border: none !important;
 }
 
 .profile .you {
@@ -680,7 +680,7 @@ Please do give credit if you decided to recolor :)
 
 .profile .progress-level-value,
 .stat-name {
-    color: white !important;
+    color: #660033 !important;
 }
 
 .profile .progress[data-v-5aafd15a] {
