@@ -13,19 +13,26 @@ Please do give credit if you decided to recolor :)
  */
 /* Fonts */
 @font-face {
-    font-family: gamefont;
+    font-family: Kinkee;
     src: url("https://raw.githubusercontent.com/MOF1/krunker_css/main/css/fonts/Steradian-Bold.otf");
 }
 
 * {
-    font-family: gamefont;
+    font-family: Kinkee;
 }
 
-/* Hide Logo */
+/* Removes Logo  */
 .interface .logo {
+    width: auto;
+    content: url("https://media.discordapp.net/attachments/1041783881080254495/1060395386239471686/Cool_Text_-_Boingoo_426801185851124.png") !important;
+    z-index: 1;
+}
+.promo-link-btn {
+    display: none !important;
+}
+.soc-group[data-v-3c44abf2] {
     display: none;
 }
-
 /*	Ad Removal */
 .ad-bottom,
 .ad-left {
