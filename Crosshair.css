@@ -352,11 +352,11 @@ Please do give credit if you decided to recolor :)
 	border-radius: 0 !important;
 }
 
-.left-icons .icon-btn {
-    background: transparent;
-	border: none;
-    width: 107px;
-    border-radius: 0;
+.left-icons,
+.icon-btn {
+    background: transparent !important;
+    border: none !important;
+    padding: 0 !important;
 }
 
 .left-icons .icon-btn .text-icon,
