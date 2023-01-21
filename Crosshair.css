@@ -669,18 +669,18 @@ div.card-cont.user-info,
     border-bottom: transparent !important;
     border: none !important;
 }
-
-.profile .you {
-    visibility: hidden;
+.settings[data-v-e0ea0f78] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
 }
-
-.profile .progress-line {
-    background: #4f4e4ead;
+.card-cont[data-v-1cbd79ff] {
+    background: transparent !important;
+    border-bottom: transparent !important;
+    border: none !important;
 }
-
-.profile .progress-level-value,
-.stat-name {
-    color: #660033 !important;
+.card-cont[data-v-1cbd79ff]:hover {
+    background: transparent !important;
 }
 
 .profile .progress[data-v-5aafd15a] {
